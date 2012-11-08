@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AmeriCommerceApiExamples.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AmeriCommerceApiExamples_ACDB_AmeriCommerceDatabaseIO" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://shop.mybox.com/store/ws/americommercedb.asmx</Value>
+    </Setting>
+    <Setting Name="ApiUsername" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">youruser</Value>
+    </Setting>
+    <Setting Name="ApiPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yourpass</Value>
+    </Setting>
+    <Setting Name="ApiSecurityToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yourtoken</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
