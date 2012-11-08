@@ -1,0 +1,26 @@
+﻿<Window x:Class="AmeriCommerceApiExamples.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="546" Width="521">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="295*" />
+        </Grid.RowDefinitions>
+        <Button Height="23" Margin="12,103,0,0" Name="btnGetSession" VerticalAlignment="Top" HorizontalAlignment="Left" Width="226" Click="btnGetSession_Click" Grid.Row="1">Do Remote Carting Via API</Button>
+        <Label Height="31" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="246" FontSize="16" FontWeight="Bold" Grid.RowSpan="2">AmeriCommerce API Examples</Label>
+        <TextBox Margin="244,12,12,12" Name="txtResults" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Grid.RowSpan="2" />
+        <CheckBox Height="16" HorizontalAlignment="Left" Margin="12,42,0,0" Name="chkAddItemToCart" VerticalAlignment="Top" Width="120" IsChecked="True" Grid.Row="1">Add Item To Cart</CheckBox>
+        <CheckBox Height="16" HorizontalAlignment="Left" IsChecked="True" Margin="12,81,0,0" Name="chkPlaceOrder" VerticalAlignment="Top" Width="120" Grid.Row="1">Place Order</CheckBox>
+        <CheckBox Height="16" HorizontalAlignment="Left" IsChecked="False" Margin="12,20,0,0" Name="chkNewSession" VerticalAlignment="Top" Width="120" Grid.Row="1">Start New Session</CheckBox>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,190" Name="btnGetCategoryProducts" VerticalAlignment="Bottom" Width="226" Grid.Row="1" Click="btnGetCategoryProducts_Click">Get Category Products</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,161" Name="btnGetOrdersPreFilled" VerticalAlignment="Bottom" Width="226" Grid.Row="1" Click="btnGetOrdersPreFilled_Click">Get Orders Pre Filled</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,132,0,0" Name="btnPlaceOrderOnCinsaySite" VerticalAlignment="Top" Width="226" Grid.Row="1" Click="btnPlaceOrderOnCinsaySite_Click">Cinsay Place Order</Button>
+        <Button HorizontalAlignment="Left" Margin="12,228,0,217" Name="btnSaveCustomerToAC" Width="226" Grid.Row="1" Click="btnSaveCustomerToAC_Click">Save CST To AC</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,132" Name="btnGetProduct" VerticalAlignment="Bottom" Width="226" Grid.Row="1" Click="btnGetProduct_Click">Get Product</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,103" Name="btnTestOrderConsumption" VerticalAlignment="Bottom" Width="226" Grid.Row="1" Click="btnTestOrderConsumption_Click">Test Order Consumption</Button>
+        <CheckBox HorizontalAlignment="Left" IsChecked="True" Margin="12,59,0,0" Name="chkGetShipping" Width="120" Height="16" Grid.Row="1" VerticalAlignment="Top">Get Shipping Etc.</CheckBox>
+        <Button HorizontalAlignment="Left" Margin="12,0,0,74" Name="btnPullInventory" Width="226" Height="23" Grid.Row="1" VerticalAlignment="Bottom" Click="btnPullInventory_Click">Pull Product Inventory From Trossen</Button>
+        <Button Content="Pull Product From Steelcase" Height="23" HorizontalAlignment="Left" Margin="12,0,0,45" Name="button1" VerticalAlignment="Bottom" Width="226" Grid.Row="1" Click="button1_Click" />
+    </Grid>
+</Window>
